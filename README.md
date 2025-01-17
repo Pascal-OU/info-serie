@@ -1,3 +1,57 @@
+# TVMaze Search App
+
+## Description du projet
+
+TVMaze Search App est une application web développée avec React, permettant de rechercher des séries TV, des acteurs ou des thèmes à l'aide de l'API [TVMaze](https://www.tvmaze.com/api). 
+
+### Fonctionnalités principales :
+- Recherche de séries par nom, thème ou acteur.
+- Affichage des informations suivantes pour chaque série :
+  - Titre de la série.
+  - Genres.
+  - Pays d'origine.
+  - Résumé.
+  - Casting principal.
+  - Chaîne ou plateforme de diffusion (avec lien vers le site officiel).
+  - Image de la série (si disponible).
+  - Vidéo YouTube intégrée (si disponible).
+  
+Ce projet offre une interface intuitive et responsive pour explorer facilement l'univers des séries TV.
+
+#### Exemples d'utilisation
+- Recherche par nom de série
+  - Sélectionnez "Par nom" dans le menu déroulant.
+  - Saisissez le nom d'une série (par exemple : Breaking Bad).
+  - Cliquez sur "Rechercher".
+  - Consultez les résultats affichant le titre, les genres, le casting et d'autres informations.
+- Recherche par acteur
+  - Sélectionnez "Par acteur" dans le menu déroulant.
+  - Saisissez le nom d'un acteur (par exemple : Bryan Cranston).
+  - Cliquez sur "Rechercher".
+  - Parcourez les séries dans lesquelles cet acteur a joué.
+- Recherche par thème
+  - Sélectionnez "Par thème" dans le menu déroulant.
+  - Saisissez un thème ou un mot-clé (par exemple : comédie).
+  - Cliquez sur "Rechercher".
+  - Découvrez des séries correspondant au thème.
+
+
+---
+
+## Instructions d'installation
+
+### Prérequis
+- **Node.js** (version 14 ou supérieure) : [Télécharger Node.js](https://nodejs.org/)
+- **npm** (inclus avec Node.js) ou **yarn** pour gérer les dépendances.
+
+### Étapes d'installation
+
+1. **Cloner le projet depuis GitHub** :
+   ```bash
+   git clone https://github.com/votre-utilisateur/tvmaze-search-app.git
+   cd tvmaze-search-app
+
+   
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
